@@ -193,4 +193,10 @@ void medirTiempo(const string& nombreMatrizA, const string& nombreMatrizB, int f
 int main() {
     // Multiplicación de matrices cuadradas y no cuadradas
     medirTiempo("matriz_100x100.txt", "matriz_100x100.txt", 100, 100, 100);
-    medirTiempo("mat
+    medirTiempo("matriz_500x500.txt", "matriz_500x500.txt", 500, 500, 500);
+    medirTiempo("matriz_1000x1000.txt", "matriz_1000x1000.txt", 1000, 1000, 1000);
+    medirTiempo("matriz_100x500.txt", "matriz_500x1000.txt", 100, 500, 1000);
+
+    return 0;
+}
+
