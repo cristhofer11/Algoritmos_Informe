@@ -10,13 +10,14 @@ Este proyecto contiene la implementación y evaluación experimental de varios a
   - `quicksort.cpp`: Implementación de Quicksort.
   - `Biblioteca Estándar.cpp`: Uso de `std::sort()`.
 
-- **Multiplicación de Matrices** (`Multiplicación de Matrices/`):
+- **Multiplicación de Matrices** (`Multiplicación_de_Matrices/`):
   - `Multipolicacion cubica tradicional.cpp`: Implementación del algoritmo cúbico tradicional.
   - `Multiplicacion optimizada.cpp`: Algoritmo cúbico optimizado (localidad de datos).
-  - `strassen.cpp`: Implementación del algoritmo de Strassen.
+  - `Algoritmo de strassen.cpp`: Implementación del algoritmo de Strassen.
 
-- **Generación de Datasets** (`datasets/`):
-  - `generate_datasets.cpp`: Script para generar los datasets de prueba.
+- **Datasets** (`Data_sets/`):
+  - `Dataset para Multiplicación de Matrices.cpp`: Script para generar los datasets de prueba.
+  - `Dataset para Ordenamiento.cpp`: Script para generar los datasets de prueba.
 
 ## Cómo Ejecutar
 
